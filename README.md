@@ -1,6 +1,8 @@
 # Quora-Question-Pair-Similarity
 - Identify which questions asked on Quora are duplicates of questions that have already been asked.  - This could be useful to instantly provide answers to questions that have already been answered.  - We are tasked with predicting whether a pair of questions are duplicates or not. 
 
+- **Source : https://www.kaggle.com/c/quora-question-pairs**
+
 Real world/Business Objectives and Constraints
 1. The cost of a mis-classification can be very high. 2. You would want a probability of a pair of questions to be duplicates so that you can choose any threshold of choice. 3. No strict latency concerns. 4. Interpretability is partially important.
 Machine Learning Probelm
