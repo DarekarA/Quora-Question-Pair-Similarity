@@ -11,23 +11,14 @@ Machine Learning Probelm
 - Size of Train.csv - 60MB
 - Number of rows in Train.csv = 404,290
 
-Mapping the real world problem to an ML problem
+**Mapping the real world problem to an ML problem**
 It is a binary classification problem, for a given pair of questions we need to predict if they are duplicate or not.
 
-Performance Metric
+**Performance Metric**
 Source: https://www.kaggle.com/c/quora-question-pairs#evaluation
 
-Metric(s):
+**Metric(s):**
 
 log-loss : https://www.kaggle.com/wiki/LogarithmicLoss
 Binary Confusion Matrix
 We build train and test by randomly splitting in the ratio of 70:30 or 80:20 whatever we choose as we have sufficient points to work with.
-
-Our Approach
-After doing eda we found out that:
-
-There are more 0's than 1's.
-The 1's are 36.92% whereas the 0's are 63.08%
-There are 537,933 unique questions of which 111,780 occured more than once.
-Only one question appeared 157 times
-There were no duplicates but we found out that there are 2 questions with null Values. So we replaced them with a space
